@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --primary-color: #e5c641;
+  --text-dark: #000000;
+  --text-light: #737373;
+  --extra-light: #f4f6f6;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  background-color: #f1d99b80;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/*  navbar  */
+.navbar-light .container-fluid {
+  margin: 0 44px;
+}
+header {
+  margin: 1.4rem 0;
+}
+nav {
+  background-color: white;
+  padding: 8rem 0;
+}
+nav .navbar-brand {
+  color: var(--text-dark);
+  font-weight: 800;
+  font-size: 1.8rem;
+}
+.nav-item a {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.nav-item a:hover {
+  color: #737373;
+  scale: 1.1;
+  background-color: #f1d99ba8;
+  border-radius: 20px;
+}
+.btn:hover {
+  background-color: var(--primary-color);
+}
+.Search-input {
+  width: 480px !important;
+}
+
+/* image slide  */
+
+.imageslides {
+  background-color: #f1d99ba8;
+  padding: 1.8rem 0;
+}
+.imageslides h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+}
+
+/* menu  */
+.slider-wrapper {
+  background-color: #f1d89b;
+  padding: 12px 0;
+}
+.card-list .card-item {
+  color: #836161;
+  width: 400px;
+  height: 260px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #f1d89b;
+}
+.cards {
+  color: #836161;
+  width: 400px;
+  height: 360px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #f1d89b;
+}
+.cards h2 {
+  display: none;
+}
+.card-list .card-item h2 {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.card-list .card-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.cards img {
+  width: 250px;
+  height: 350px;
+}
+main {
+  background-color: #836161;
+}
+
+/* Banner sectiob  */
+.banner {
+  padding-block: 4rem;
+  overflow: hidden;
+  /* background-color: var(--primary-color); */
+  background-color: #f1d99ba8;
+}
+
+.banner__container {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+  animation: scroll 45s linear infinite;
+  margin-top: 18px;
+}
+
+.banner__container img {
+  height: 30px;
+}
+
+@keyframes scroll {
+  to {
+    transform: translateX(calc(-50% - 4rem));
+  }
+}
+/* Budget Add-Ons  */
+.Budget {
+  background-color: #f1d99ba8;
+  padding: 18px 0;
+}
+.Budget h2 {
+  font-size: 34px;
+  font-weight: 600;
+  padding-left: 30px;
+  color: #000000;
+}
+.Budget h2 span {
+  color: #f26a41;
+}
+.Add-Ons img {
+  border-radius: 22%;
+}
+
+/* footer  */
+footer {
+  background-color: var(--text-dark);
+}
+
+.footer__container {
+  display: grid;
+  gap: 4rem 2rem;
+}
+
+.footer__logo {
+  margin-bottom: 1rem;
+}
+
+.footer__logo a {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--white);
+}
+
+.footer__col p {
+  max-width: 300px;
+  margin-bottom: 2rem;
+  color: var(--text-light);
+}
+
+.footer__socials {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer__socials a {
+  padding: 5px 10px;
+  font-size: 1.5rem;
+  color: var(--text-dark);
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.footer__socials a:hover {
+  color: var(--white);
+}
+
+.footer__col h4 {
+  margin: 0.4rem 0 1rem 1.8rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.footer__links {
+  display: grid;
+  gap: 1rem;
+  list-style: none;
+}
+
+.footer__links a {
+  color: var(--text-light);
+  text-decoration: none;
+}
+
+.footer__links a:hover {
+  color: var(--white);
+}
+
+.footer__bar {
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  text-align: center;
+}
+
+/* api data section  */
+
+.box img {
+  height: 360px;
+  width: 270px;
+  border-radius: 1rem;
+}
+.box img:hover {
+  transform: scale(0.89);
+}
+.box .content {
+  padding: 4px 8px;
+}
+.box .content h4 {
+  font-size: 18px;
+}

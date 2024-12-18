@@ -1,0 +1,138 @@
+@media (min-width: 993px) {
+}
+@media (max-width: 992px) {
+  .navbar-light .container-fluid {
+    margin: 0 44px;
+  }
+  header {
+    margin: 1rem 0;
+  }
+  .imageslides {
+    padding: 1.2rem 0;
+  }
+  .imageslides h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+  }
+  .cards {
+    width: 320px;
+    height: 320px;
+    padding: 20px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 772px) {
+  header {
+    margin: 0.8rem 0;
+  }
+  .navbar-light .container-fluid {
+    margin: 0 20px;
+  }
+  .banner {
+    padding-block: 3rem;
+  }
+
+  .banner__container {
+    margin-top: 8px;
+    gap: 6rem;
+  }
+
+  .banner__container img {
+    height: 24px;
+  }
+  .Budget h2 {
+    font-size: 26px;
+    padding-left: 25px;
+  }
+}
+@media (max-width: 620px) {
+  .card-list .card-item {
+    color: #836161;
+    width: 350px;
+    padding: 15px;
+  }
+  .card-list .card-item img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+  }
+  .card-list .card-item h2 {
+    font-size: 18px;
+  }
+  .banner__container {
+    margin-top: 8px;
+    gap: 5rem;
+  }
+  .cards {
+    width: 290px;
+    height: 300px;
+    padding: 12px;
+    margin-top: 12px;
+  }
+
+  .navbar-light .container-fluid {
+    margin: 0 12px;
+  }
+  .Budget h2 {
+    font-size: 20px;
+    padding-left: 22px;
+  }
+}
+
+@media (max-width: 482px) {
+  header {
+    margin: 0.4rem 0;
+  }
+  .navbar-light .container-fluid {
+    margin: 0 2px;
+  }
+  .imageslides {
+    padding: 0.9rem 0;
+  }
+  .imageslides h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .card-list .card-item {
+    width: 290px;
+    height: 230px;
+    padding: 10px;
+  }
+  .card-list .card-item h2 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .card-list .card-item img {
+    width: 106px;
+    height: 106px;
+    border-radius: 50%;
+  }
+  .cards {
+    width: 290px;
+    height: 230px;
+    padding: 8px;
+    margin-top: 12px;
+  }
+
+  .banner {
+    padding-block: 1.6rem;
+  }
+
+  .banner__container {
+    margin-top: 3px;
+    gap: 3rem;
+  }
+
+  .banner__container img {
+    height: 19px;
+  }
+  .Budget {
+    padding: 8px 0;
+  }
+  .Budget h2 {
+    font-size: 16px;
+    padding-left: 18px;
+  }
+}
